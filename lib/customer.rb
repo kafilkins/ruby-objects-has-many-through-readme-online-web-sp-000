@@ -18,7 +18,7 @@ class Customer
   end
 
   def meals
-    self.meals.length
+    self.meals
   end
 
 end
