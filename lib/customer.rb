@@ -18,7 +18,9 @@ class Customer
   end
 
   def meals
-    self.meals
+    Meal.all.select do |meal|
+      meal.customer == self
+    end
   end
 
 end
