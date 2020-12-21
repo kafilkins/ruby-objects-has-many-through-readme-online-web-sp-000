@@ -27,6 +27,4 @@ class Customer
       waiter.customer == self
   end
 
-  end
-
 end
